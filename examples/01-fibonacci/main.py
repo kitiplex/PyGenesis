@@ -42,7 +42,7 @@ def main():
             print("Enter a number or 'exit'")
             continue
 
-        print(*fibonacci.get(index), sep=', ')  # Print without square brackets
+        print(*fibonacci.get(index), sep=', ')
 
 if __name__ == "__main__":
     main()
